@@ -5,7 +5,7 @@ const Container = styled.div`
 `;
 
 const Header = styled.div`
-  padding: 15px 10px;
+  padding: 15px;
   background-color: #bbb;
   color: #fff;
   font-weight: 700;

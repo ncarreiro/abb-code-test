@@ -9,12 +9,22 @@ const Container = styled.div`
 
 const Row = styled.div`
   display: flex;
+  align-items: center;
 `;
 
 const Column = styled.div`
-  padding: 15px 10px;
+  padding: 15px;
+  display: flex;
   flex: 1;
-  justify-content: space-between;
+  justify-content: center;
+
+  &:first-of-type {
+    justify-content: flex-start;
+  }
+
+  &:last-of-type {
+    justify-content: flex-end;
+  }
 `;
 
 const Header = styled(Row)`

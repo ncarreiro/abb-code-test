@@ -37,12 +37,6 @@ function FeatureTable() {
           <CrossIcon />
         </FeatureTableStyles.Column>
       </FeatureTableStyles.Row>
-      <FeatureTableStyles.Row>
-        <FeatureTableStyles.Column>Diameter</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>YELLOW_ICON</FeatureTableStyles.Column>
-      </FeatureTableStyles.Row>
     </FeatureTableStyles.Container>
   );
 }

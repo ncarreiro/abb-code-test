@@ -10,6 +10,7 @@ const Container = styled.span`
   border-radius: 50%;
   text-align: center;
   color: #333;
+  font-size: 14px;
 
   &.ok {
     border-color: #329a5d;
