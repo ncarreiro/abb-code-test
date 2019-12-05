@@ -13,7 +13,7 @@ function Feature(props) {
           <Icon type={props.status} />
         </FeatureStyles.Status>
       </FeatureStyles.Header>
-      <FeatureTable />
+      <FeatureTable rows={props.rows} />
     </FeatureStyles.Container>
   );
 }

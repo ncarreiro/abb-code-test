@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Seam",
+    "status": "ok",
+    "rows": [
+      {
+        "control": "X",
+        "dev": 0,
+        "devOutTol": 0,
+        "status": "ok"
+      },
+      {
+        "control": "Y",
+        "dev": 0,
+        "devOutTol": 0,
+        "status": "ok"
+      },
+      {
+        "control": "Z",
+        "dev": 0,
+        "devOutTol": 0,
+        "status": "ok"
+      },
+      {
+        "control": "Diameter",
+        "dev": 0,
+        "devOutTol": 0,
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "name": "Slot",
+    "status": "warning",
+    "rows": [
+      {
+        "control": "X",
+        "dev": 0,
+        "devOutTol": 0,
+        "status": "ok"
+      },
+      {
+        "control": "Y",
+        "dev": 0,
+        "devOutTol": 0,
+        "status": "warning"
+      },
+      {
+        "control": "Z",
+        "dev": 0,
+        "devOutTol": 0,
+        "status": "ok"
+      },
+      {
+        "control": "Diameter",
+        "dev": 0,
+        "devOutTol": 0,
+        "status": "warning"
+      }
+    ]
+  },
+  {
+    "name": "Hole",
+    "status": "error",
+    "rows": [
+      {
+        "control": "X",
+        "dev": 0,
+        "devOutTol": 0,
+        "status": "error"
+      },
+      {
+        "control": "Y",
+        "dev": 0,
+        "devOutTol": 0,
+        "status": "error"
+      },
+      {
+        "control": "Z",
+        "dev": 0,
+        "devOutTol": 0,
+        "status": "error"
+      },
+      {
+        "control": "Diameter",
+        "dev": 0,
+        "devOutTol": 0,
+        "status": "error"
+      }
+    ]
+  }
+]

@@ -1,8 +1,8 @@
 import React from "react";
 import { FeatureTableStyles } from "./FeatureTable.styles";
-import OkIcon from "../Icons/OkIcon";
+import Icon from "../Icons";
 
-function FeatureTable() {
+function FeatureTable(props) {
   return (
     <FeatureTableStyles.Container>
       <FeatureTableStyles.Header>
@@ -11,38 +11,17 @@ function FeatureTable() {
         <FeatureTableStyles.Column>Dev Out Tol</FeatureTableStyles.Column>
         <FeatureTableStyles.Column></FeatureTableStyles.Column>
       </FeatureTableStyles.Header>
-      <FeatureTableStyles.Row>
-        <FeatureTableStyles.Column>X</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>
-          <OkIcon />
-        </FeatureTableStyles.Column>
-      </FeatureTableStyles.Row>
-      <FeatureTableStyles.Row>
-        <FeatureTableStyles.Column>Y</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>
-          <OkIcon />
-        </FeatureTableStyles.Column>
-      </FeatureTableStyles.Row>
-      <FeatureTableStyles.Row>
-        <FeatureTableStyles.Column>Z</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>
-          <OkIcon />
-        </FeatureTableStyles.Column>
-      </FeatureTableStyles.Row>
-      <FeatureTableStyles.Row>
-        <FeatureTableStyles.Column>Diameter</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
-        <FeatureTableStyles.Column>
-          <OkIcon />
-        </FeatureTableStyles.Column>
-      </FeatureTableStyles.Row>
+
+      {props.rows.map(row => (
+        <FeatureTableStyles.Row>
+          <FeatureTableStyles.Column>{row.control}</FeatureTableStyles.Column>
+          <FeatureTableStyles.Column>{row.dev}</FeatureTableStyles.Column>
+          <FeatureTableStyles.Column>{row.devOutTol}</FeatureTableStyles.Column>
+          <FeatureTableStyles.Column>
+            <Icon type={row.status} />
+          </FeatureTableStyles.Column>
+        </FeatureTableStyles.Row>
+      ))}
     </FeatureTableStyles.Container>
   );
 }
