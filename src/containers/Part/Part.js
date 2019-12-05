@@ -1,14 +1,13 @@
 import React from "react";
 import { PartStyles } from "./Part.styles";
 import Feature from "../../components/Feature/Feature";
-import featuresMocks from "../../mocks/featuresMocks";
 
-function Part() {
+function Part(props) {
   return (
     <PartStyles.Container>
-      <PartStyles.Header>Part A</PartStyles.Header>
+      <PartStyles.Header>{props.name}</PartStyles.Header>
       <PartStyles.PartFeatures>
-        {featuresMocks.map(feature => (
+        {props.features.map(feature => (
           <Feature
             key={feature.id}
             name={feature.name}
