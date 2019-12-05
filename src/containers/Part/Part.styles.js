@@ -12,6 +12,7 @@ const Header = styled.div`
 const PartFeatures = styled.div`
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 `;
 
 export const PartStyles = {

@@ -10,9 +10,10 @@ function Part() {
       <PartStyles.PartFeatures>
         {featuresMocks.map(feature => (
           <Feature
+            key={feature.id}
             name={feature.name}
             status={feature.status}
-            rows={feature.rows}
+            tables={feature.tables}
           />
         ))}
       </PartStyles.PartFeatures>

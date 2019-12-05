@@ -13,7 +13,11 @@ function Feature(props) {
           <Icon type={props.status} />
         </FeatureStyles.Status>
       </FeatureStyles.Header>
-      <FeatureTable rows={props.rows} />
+      <FeatureStyles.FeatureTablesContainer>
+        {props.tables.map(table => (
+          <FeatureTable key={table.id} rows={table.rows} />
+        ))}
+      </FeatureStyles.FeatureTablesContainer>
     </FeatureStyles.Container>
   );
 }

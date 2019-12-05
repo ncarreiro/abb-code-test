@@ -3,7 +3,6 @@ import styled from "styled-components";
 const Container = styled.div`
   flex: 1;
   margin: 10px;
-  box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.25);
 `;
 
 const Header = styled.div`
@@ -15,6 +14,7 @@ const Header = styled.div`
   color: #fff;
   font-weight: 700;
   font-size: 1.2em;
+  box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.25);
 
   &.ok {
     background-color: #329a5d;
@@ -35,10 +35,17 @@ const Checkbox = styled.input``;
 
 const Status = styled.div``;
 
+const FeatureTablesContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.25);
+`;
+
 export const FeatureStyles = {
   Container,
   Header,
   Name,
   Checkbox,
-  Status
+  Status,
+  FeatureTablesContainer
 };

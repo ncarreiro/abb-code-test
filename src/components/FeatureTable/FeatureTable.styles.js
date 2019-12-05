@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
+  flex: 1;
   display: flex;
   flex-direction: column;
   background-color: #d2d2d2;
@@ -17,6 +18,7 @@ const Column = styled.div`
   display: flex;
   flex: 1;
   justify-content: center;
+  white-space: nowrap;
 
   &:first-of-type {
     justify-content: flex-start;

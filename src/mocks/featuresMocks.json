@@ -1,91 +1,138 @@
 [
   {
+    "id": 1,
     "name": "Seam",
     "status": "ok",
-    "rows": [
+    "tables": [
       {
-        "control": "X",
-        "dev": 0,
-        "devOutTol": 0,
-        "status": "ok"
+        "id": 1,
+        "rows": [
+          {
+            "control": "X",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "ok"
+          },
+          {
+            "control": "Y",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "ok"
+          },
+          {
+            "control": "Z",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "ok"
+          },
+          {
+            "control": "Diameter",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "ok"
+          }
+        ]
       },
       {
-        "control": "Y",
-        "dev": 0,
-        "devOutTol": 0,
-        "status": "ok"
-      },
-      {
-        "control": "Z",
-        "dev": 0,
-        "devOutTol": 0,
-        "status": "ok"
-      },
-      {
-        "control": "Diameter",
-        "dev": 0,
-        "devOutTol": 0,
-        "status": "ok"
+        "id": 2,
+        "rows": [
+          {
+            "control": "X",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "ok"
+          },
+          {
+            "control": "Y",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "ok"
+          },
+          {
+            "control": "Z",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "ok"
+          },
+          {
+            "control": "Diameter",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "ok"
+          }
+        ]
       }
     ]
   },
   {
+    "id": 2,
     "name": "Slot",
     "status": "warning",
-    "rows": [
+    "tables": [
       {
-        "control": "X",
-        "dev": 0,
-        "devOutTol": 0,
-        "status": "ok"
-      },
-      {
-        "control": "Y",
-        "dev": 0,
-        "devOutTol": 0,
-        "status": "warning"
-      },
-      {
-        "control": "Z",
-        "dev": 0,
-        "devOutTol": 0,
-        "status": "ok"
-      },
-      {
-        "control": "Diameter",
-        "dev": 0,
-        "devOutTol": 0,
-        "status": "warning"
+        "id": 1,
+        "rows": [
+          {
+            "control": "X",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "ok"
+          },
+          {
+            "control": "Y",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "warning"
+          },
+          {
+            "control": "Z",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "ok"
+          },
+          {
+            "control": "Diameter",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "warning"
+          }
+        ]
       }
     ]
   },
   {
+    "id": 3,
     "name": "Hole",
     "status": "error",
-    "rows": [
+    "tables": [
       {
-        "control": "X",
-        "dev": 0,
-        "devOutTol": 0,
-        "status": "error"
-      },
-      {
-        "control": "Y",
-        "dev": 0,
-        "devOutTol": 0,
-        "status": "error"
-      },
-      {
-        "control": "Z",
-        "dev": 0,
-        "devOutTol": 0,
-        "status": "error"
-      },
-      {
-        "control": "Diameter",
-        "dev": 0,
-        "devOutTol": 0,
-        "status": "error"
+        "id": 1,
+        "rows": [
+          {
+            "control": "X",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "error"
+          },
+          {
+            "control": "Y",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "error"
+          },
+          {
+            "control": "Z",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "error"
+          },
+          {
+            "control": "Diameter",
+            "dev": 0,
+            "devOutTol": 0,
+            "status": "error"
+          }
+        ]
       }
     ]
   }

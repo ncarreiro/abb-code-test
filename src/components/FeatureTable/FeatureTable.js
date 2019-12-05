@@ -13,7 +13,7 @@ function FeatureTable(props) {
       </FeatureTableStyles.Header>
 
       {props.rows.map(row => (
-        <FeatureTableStyles.Row>
+        <FeatureTableStyles.Row key={row.control}>
           <FeatureTableStyles.Column>{row.control}</FeatureTableStyles.Column>
           <FeatureTableStyles.Column>{row.dev}</FeatureTableStyles.Column>
           <FeatureTableStyles.Column>{row.devOutTol}</FeatureTableStyles.Column>
