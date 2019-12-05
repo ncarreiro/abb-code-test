@@ -1,0 +1,295 @@
+[
+  {
+    "id": 1,
+    "name": "Part A",
+    "features": [
+      {
+        "id": 1,
+        "name": "Seam",
+        "status": "warning",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 3,
+                "devOutTol": 3,
+                "status": "warning"
+              },
+              {
+                "control": "Y",
+                "dev": 2,
+                "devOutTol": 1,
+                "status": "warning"
+              },
+              {
+                "control": "Z",
+                "dev": 3,
+                "devOutTol": 3,
+                "status": "warning"
+              },
+              {
+                "control": "Diameter",
+                "dev": 1,
+                "devOutTol": 3,
+                "status": "warning"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 1,
+                "devOutTol": 2,
+                "status": "warning"
+              },
+              {
+                "control": "Y",
+                "dev": 2,
+                "devOutTol": 2,
+                "status": "warning"
+              },
+              {
+                "control": "Z",
+                "dev": 2,
+                "devOutTol": 1,
+                "status": "warning"
+              },
+              {
+                "control": "Diameter",
+                "dev": 1,
+                "devOutTol": 1,
+                "status": "warning"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Slot",
+        "status": "error",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 20,
+                "devOutTol": 20,
+                "status": "error"
+              },
+              {
+                "control": "Y",
+                "dev": 3,
+                "devOutTol": 2,
+                "status": "warning"
+              },
+              {
+                "control": "Z",
+                "dev": 3,
+                "devOutTol": 3,
+                "status": "warning"
+              },
+              {
+                "control": "Diameter",
+                "dev": 8,
+                "devOutTol": 8,
+                "status": "error"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Hole",
+        "status": "error",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Y",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Z",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Diameter",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Part B",
+    "features": [
+      {
+        "id": 1,
+        "name": "Seam",
+        "status": "error",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Y",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Z",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Diameter",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Slot",
+        "status": "error",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Y",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Z",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Diameter",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Hole #1",
+        "status": "error",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Y",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Z",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Diameter",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Hole #2",
+        "status": "error",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Y",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Z",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              },
+              {
+                "control": "Diameter",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "error"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

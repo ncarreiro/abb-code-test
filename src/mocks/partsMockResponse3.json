@@ -1,0 +1,295 @@
+[
+  {
+    "id": 1,
+    "name": "Part A",
+    "features": [
+      {
+        "id": 1,
+        "name": "Seam",
+        "status": "ok",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Y",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Z",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Diameter",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Y",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Z",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Diameter",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Slot",
+        "status": "ok",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Y",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Z",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Diameter",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Hole",
+        "status": "ok",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Y",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Z",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Diameter",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Part B",
+    "features": [
+      {
+        "id": 1,
+        "name": "Seam",
+        "status": "ok",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Y",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Z",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Diameter",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Slot",
+        "status": "ok",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Y",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Z",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Diameter",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Hole #1",
+        "status": "ok",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Y",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Z",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Diameter",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Hole #2",
+        "status": "ok",
+        "tables": [
+          {
+            "id": 1,
+            "rows": [
+              {
+                "control": "X",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Y",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Z",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              },
+              {
+                "control": "Diameter",
+                "dev": 0,
+                "devOutTol": 0,
+                "status": "ok"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

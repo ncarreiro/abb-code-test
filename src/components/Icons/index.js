@@ -5,6 +5,7 @@ import OkIcon from "./OkIcon";
 import WarningIcon from "./WarningIcon";
 import ErrorIcon from "./ErrorIcon";
 
+// TODO: Take this to a IconHelpers.js file
 const getIconByType = type => {
   let icon;
 
