@@ -1,8 +1,6 @@
 import React from "react";
 import { FeatureTableStyles } from "./FeatureTable.styles";
-import ExclamationIcon from "../Icons/ExclamationIcon";
-import MarkIcon from "../Icons/MarkIcon";
-import CrossIcon from "../Icons/CrossIcon";
+import OkIcon from "../Icons/OkIcon";
 
 function FeatureTable() {
   return (
@@ -18,7 +16,7 @@ function FeatureTable() {
         <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
         <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
         <FeatureTableStyles.Column>
-          <ExclamationIcon />
+          <OkIcon />
         </FeatureTableStyles.Column>
       </FeatureTableStyles.Row>
       <FeatureTableStyles.Row>
@@ -26,7 +24,7 @@ function FeatureTable() {
         <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
         <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
         <FeatureTableStyles.Column>
-          <MarkIcon />
+          <OkIcon />
         </FeatureTableStyles.Column>
       </FeatureTableStyles.Row>
       <FeatureTableStyles.Row>
@@ -34,7 +32,15 @@ function FeatureTable() {
         <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
         <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
         <FeatureTableStyles.Column>
-          <CrossIcon />
+          <OkIcon />
+        </FeatureTableStyles.Column>
+      </FeatureTableStyles.Row>
+      <FeatureTableStyles.Row>
+        <FeatureTableStyles.Column>Diameter</FeatureTableStyles.Column>
+        <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
+        <FeatureTableStyles.Column>0</FeatureTableStyles.Column>
+        <FeatureTableStyles.Column>
+          <OkIcon />
         </FeatureTableStyles.Column>
       </FeatureTableStyles.Row>
     </FeatureTableStyles.Container>

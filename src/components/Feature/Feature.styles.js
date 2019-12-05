@@ -2,29 +2,43 @@ import styled from "styled-components";
 
 const Container = styled.div`
   flex: 1;
+  margin: 10px;
+  box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.25);
 `;
 
 const Header = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 15px;
   background-color: #bbb;
   color: #fff;
   font-weight: 700;
   font-size: 1.2em;
 
-  &.Ok {
+  &.ok {
     background-color: #329a5d;
   }
 
-  &.Warning {
+  &.warning {
     background-color: #e9c704;
   }
 
-  &.Error {
+  &.error {
     background-color: #f32d3e;
   }
 `;
 
+const Name = styled.div``;
+
+const Checkbox = styled.input``;
+
+const Status = styled.div``;
+
 export const FeatureStyles = {
   Container,
-  Header
+  Header,
+  Name,
+  Checkbox,
+  Status
 };

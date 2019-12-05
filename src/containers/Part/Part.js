@@ -5,9 +5,11 @@ import Feature from "../../components/Feature/Feature";
 function Part() {
   return (
     <PartStyles.Container>
-      <PartStyles.Header>PART A</PartStyles.Header>
+      <PartStyles.Header>Part A</PartStyles.Header>
       <PartStyles.PartFeatures>
-        <Feature />
+        <Feature name="Seam" status="ok" />
+        <Feature name="Slot" status="warning" />
+        <Feature name="Hole" status="error" />
       </PartStyles.PartFeatures>
     </PartStyles.Container>
   );

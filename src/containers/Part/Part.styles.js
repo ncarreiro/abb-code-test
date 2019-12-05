@@ -11,7 +11,7 @@ const Header = styled.div`
 
 const PartFeatures = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 `;
 
 export const PartStyles = {

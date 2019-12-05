@@ -1,7 +1,7 @@
 import React from "react";
 import { IconStyles } from "./Icon.styles";
 
-function MarkIcon(props) {
+function OkIcon(props) {
   return (
     <IconStyles.Container role="img" aria-label="mark" className="ok">
       ✔️
@@ -9,4 +9,4 @@ function MarkIcon(props) {
   );
 }
 
-export default MarkIcon;
+export default OkIcon;

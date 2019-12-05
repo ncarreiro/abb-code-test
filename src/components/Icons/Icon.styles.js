@@ -1,16 +1,21 @@
 import styled from "styled-components";
 
+const iconStylesConfig = {
+  size: "18px"
+};
+
 const Container = styled.span`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25px;
-  height: 25px;
+  padding: 2px;
+  width: ${iconStylesConfig.size};
+  height: ${iconStylesConfig.size};
   border: 2px solid #fff;
   border-radius: 50%;
   text-align: center;
   color: #333;
-  font-size: 14px;
+  font-size: 12px;
 
   &.ok {
     border-color: #329a5d;

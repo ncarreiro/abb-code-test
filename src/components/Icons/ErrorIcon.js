@@ -1,7 +1,7 @@
 import React from "react";
 import { IconStyles } from "./Icon.styles";
 
-function CrossIcon(props) {
+function ErrorIcon(props) {
   return (
     <IconStyles.Container role="img" aria-label="cross" className="error">
       ❌
@@ -9,4 +9,4 @@ function CrossIcon(props) {
   );
 }
 
-export default CrossIcon;
+export default ErrorIcon;

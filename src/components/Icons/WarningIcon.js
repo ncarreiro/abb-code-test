@@ -1,7 +1,7 @@
 import React from "react";
 import { IconStyles } from "./Icon.styles";
 
-function ExclamationIcon(props) {
+function WarningIcon(props) {
   return (
     <IconStyles.Container
       role="img"
@@ -13,4 +13,4 @@ function ExclamationIcon(props) {
   );
 }
 
-export default ExclamationIcon;
+export default WarningIcon;
